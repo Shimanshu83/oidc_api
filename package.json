@@ -1,0 +1,47 @@
+{
+  "name": "exampil-edu-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csurf": "^1.11.0",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.4.1",
+    "express-rate-limit": "^7.1.5",
+    "express-session": "^1.18.0",
+    "google-auth-library": "^9.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "knex": "^3.1.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.9.0",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.5",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.1",
+    "uuid": "^9.0.1",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shimanshu83/exampil-edu-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
